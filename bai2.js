@@ -1,3 +1,4 @@
-function largestNumber(n) {
-    return (Math.pow(10,n))-1;
+function candies(n, m) {
+    let division = Math.floor(m / n);
+    return n * division;
 }
